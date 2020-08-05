@@ -1,0 +1,69 @@
+body {
+  background: grey;
+}
+
+.new {
+  display: inline-block;
+  font-size: 40px;
+  color: gold;
+  position: relative;
+  cursor: pointer;
+}
+.hover {
+  display: inline-block;
+  font-size: 40px;
+  color: goldenrod;
+  position: relative;
+  cursor: pointer;
+}
+.star-wrapper {
+  display: inline-block;
+}
+
+.star-wrapper input {
+  display: none;
+}
+.star-wrapper label {
+  display: inline-block;
+  font-size: 60px;
+  position: relative;
+  cursor: pointer;
+}
+.title {
+  height: 80px;
+  color: white;
+  font-size: 80px;
+}
+h1 {
+  height: 80px;
+  color: white;
+  font-size: 60px;
+}
+.container {
+  border: 10px red solid;
+  border-radius: 10cm;
+  background: black;
+
+  position: relative;
+  top: 100px;
+
+  padding-left: 200px;
+  color: white;
+}
+
+#submit {
+  color: black;
+  background: orange;
+  border: 1px solid black;
+  width: 140px;
+  height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: -15px;
+  left: 50px;
+  font-size: 16px;
+}
+#submit:hover {
+  background: yellow;
+}
